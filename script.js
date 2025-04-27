@@ -7,14 +7,14 @@ const foto = document.getElementById('foto');
 btnVovo.addEventListener('click', () => {
   mostrarSurpresa(
     'Vocês serão vovô e vovó este ano!',
-    'foto-vovos.jpg' // <-- Foto dos vovôs
+    'foto-vovos.jpeg'
   );
 });
 
 btnTitia.addEventListener('click', () => {
   mostrarSurpresa(
     'Você será titia este ano!',
-    'foto-titia.jpg' // <-- Foto da tia
+    'foto-titia.jpeg' 
   );
 });
 
