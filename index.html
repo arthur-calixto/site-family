@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site Family</title>
+  <title>Surpresa para a Família</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-  <button id="revealButton">Clique aqui para uma surpresa</button>
+  <h2>Clique no seu nome para a surpresa:</h2>
+
+  <div class="buttons">
+    <button id="btnVovo">Sidney e Alaide</button>
+    <button id="btnTitia">Julia</button>
+  </div>
 
   <div id="surpresa" class="hidden">
-    <h1>Parabéns. Vocês serão vovô/vovó este ano!</h1>
-    <img src="foto-deles.jpeg" alt="Foto dos Vovôs">
+    <h1 id="mensagem"></h1>
+    <img id="foto" src="foto-deles.jpg" alt="Foto surpresa">
   </div>
 </div>
 
