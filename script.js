@@ -23,7 +23,7 @@ btnTitia.addEventListener('click', () => {
 
 btnBerenice.addEventListener('click', () => {
   mostrarSurpresa(
-    'Você será titia este ano, Berenice!',
+    'Você será bisavó novamente este ano, Berenice!',
     'foto-berenice.jpeg'
   );
 });
