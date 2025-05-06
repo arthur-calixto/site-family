@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Surpresa para a Família</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surpresa!</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <h2 id="titulo">Clique no seu nome para revelar a surpresa:</h2>
 
-<div class="container">
-  <h2>Clique no seu nome para a surpresa:</h2>
+    <div class="buttons">
+      <button id="btnVovo">Sidney e Alaide</button>
+      <button id="btnTitia">Julia</button>
+      <button id="btnBerenice">Berenice</button>
+    </div>
 
-<div class="buttons">
-  <button id="btnVovo">Sidney e Alaide</button>
-  <button id="btnTitia">Julia</button>
-  <button id="btnBerenice">Berenice</button>
-</div>
-
-
-  <div id="surpresa" class="hidden">
-    <h1 id="mensagem"></h1>
-    <img id="foto" src="" alt="Foto surpresa">
+    <div id="surpresa" class="hidden">
+      <p id="mensagem"></p>
+      <img id="foto" src="" alt="Surpresa" />
+    </div>
   </div>
-</div>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
