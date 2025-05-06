@@ -37,8 +37,14 @@ h2 {
   margin-top: 40px;
 }
 
+#mensagem {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 #surpresa img {
-  max-width: 400px;
+  max-width: 280px;
   width: 100%;
   height: auto;
   border-radius: 12px;
